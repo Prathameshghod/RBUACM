@@ -4,98 +4,132 @@
       "url": "https://via.placeholder.com/150",
       "name": "Alice Johnson",
       "designation": "Software Engineer",
-      "description": "An experienced developer specializing in full-stack development and cloud computing."
+      "description": "An experienced developer specializing in full-stack development and cloud computing.",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe"
     },
     {
       "url": "https://via.placeholder.com/150",
       "name": "Bob Smith",
       "designation": "Data Scientist",
-      "description": "Expert in machine learning and big data analysis with a passion for AI innovation."
+      "description": "Expert in machine learning and big data analysis with a passion for AI innovation.",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe"
     },
     {
       "url": "https://via.placeholder.com/150",
       "name": "Carol Lee",
       "designation": "Product Manager",
-      "description": "A results-driven professional with a strong background in agile methodologies and product lifecycle management."
+      "description": "A results-driven professional with a strong background in agile methodologies and product lifecycle management.",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe"
     },
     {
       "url": "https://via.placeholder.com/150",
       "name": "David Brown",
       "designation": "UX Designer",
-      "description": "Creative designer with a focus on user-centered design and enhancing digital experiences."
+      "description": "Creative designer with a focus on user-centered design and enhancing digital experiences.",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe"
     },
     {
       "url": "https://via.placeholder.com/150",
       "name": "Eve White",
       "designation": "DevOps Engineer",
-      "description": "Specialist in CI/CD pipelines and cloud infrastructure management for scalable applications."
+      "description": "Specialist in CI/CD pipelines and cloud infrastructure management for scalable applications.",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe"
     },
     {
       "url": "https://via.placeholder.com/150",
       "name": "Frank Wilson",
       "designation": "Cybersecurity Analyst",
-      "description": "Dedicated to protecting systems and networks from emerging threats through proactive measures."
+      "description": "Dedicated to protecting systems and networks from emerging threats through proactive measures.",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe"
     },
     {
       "url": "https://via.placeholder.com/150",
       "name": "Grace Adams",
       "designation": "Content Strategist",
-      "description": "Skilled in crafting compelling content strategies to boost engagement and brand identity."
+      "description": "Skilled in crafting compelling content strategies to boost engagement and brand identity.",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe"
     },
     {
       "url": "https://via.placeholder.com/150",
       "name": "Hank Evans",
       "designation": "Mobile App Developer",
-      "description": "Specializes in building intuitive and high-performance mobile applications for iOS and Android."
+      "description": "Specializes in building intuitive and high-performance mobile applications for iOS and Android.",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe"
     },
     {
       "url": "https://via.placeholder.com/150",
       "name": "Ivy Green",
       "designation": "Marketing Specialist",
-      "description": "Focused on driving growth through innovative marketing campaigns and data-driven decisions."
+      "description": "Focused on driving growth through innovative marketing campaigns and data-driven decisions.",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe"
     },
     {
       "url": "https://via.placeholder.com/150",
       "name": "Jack Thomas",
       "designation": "Business Analyst",
-      "description": "Experienced in analyzing business needs and providing solutions to optimize operations."
+      "description": "Experienced in analyzing business needs and providing solutions to optimize operations.",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe"
     }
   ],
   "team": [
     {
         "name": "John Doe",
         "designation": "Team Lead",
-        "description": "Experienced team lead with a strong background in project management and team collaboration."
+        "description": "Experienced team lead with a strong background in project management and team collaboration.",
+        "github": "https://github.com/johndoe",
+        "linkedin": "https://linkedin.com/in/johndoe"
     },
     {
         "name": "Jane Smith",
         "designation": "Software Engineer",
-        "description": "Skilled in full-stack development and cloud computing."
+        "description": "Skilled in full-stack development and cloud computing.",
+        "github": "https://github.com/johndoe",
+        "linkedin": "https://linkedin.com/in/johndoe"
     },
     {
         "name": "Bob Johnson",
         "designation": "Data Scientist",
-        "description": "Expert in machine learning and big data analysis with a passion for AI innovation."
+        "description": "Expert in machine learning and big data analysis with a passion for AI innovation.",
+        "github": "https://github.com/johndoe",
+        "linkedin": "https://linkedin.com/in/johndoe"
     },
     {
         "name": "Alice Lee",
         "designation": "Product Manager",
-        "description": "A results-driven professional with a strong background in agile methodologies and product lifecycle management."
+        "description": "A results-driven professional with a strong background in agile methodologies and product lifecycle management.",
+        "github": "https://github.com/johndoe",
+        "linkedin": "https://linkedin.com/in/johndoe"
     },
     {
         "name": "Charlie Brown",
         "designation": "UX Designer",
-        "description": "Creative designer with a focus on user-centered design and enhancing digital experiences."
+        "description": "Creative designer with a focus on user-centered design and enhancing digital experiences.",
+        "github": "https://github.com/johndoe",
+        "linkedin": "https://linkedin.com/in/johndoe"
     },
     {
         "name": "David Wilson",
         "designation": "DevOps Engineer",
-        "description": "Specialist in CI/CD pipelines and cloud infrastructure management for scalable applications."
+        "description": "Specialist in CI/CD pipelines and cloud infrastructure management for scalable applications.",
+        "github": "https://github.com/johndoe",
+        "linkedin": "https://linkedin.com/in/johndoe"
     },
     {
         "name": "Eve White",
         "designation": "Cybersecurity Analyst",
-        "description": "Dedicated to protecting systems and networks from emerging threats through proactive measures."
+        "description": "Dedicated to protecting systems and networks from emerging threats through proactive measures.",
+        "github": "https://github.com/johndoe",
+        "linkedin": "https://linkedin.com/in/johndoe"
     }
   ]
 }
