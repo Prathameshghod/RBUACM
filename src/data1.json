@@ -1,0 +1,254 @@
+{
+  "technical": [
+    {
+      "name": "Ramharsh",
+      "position": "Software Engineer",
+      "image": "https://media.licdn.com/dms/image/v2/D5603AQEuEgRrmRsT3Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1719246804707?e=1741219200&v=beta&t=KMjQu9ztIcVk7riGntZJQPqN4iTz8eRNK4RXfKvJUpQ",
+      "github": "https://github.com/Ramharsh-aidev",
+      "linkedin": "https://linkedin.com/in/ramharsh-sanjay-dandekar",
+      "description": "Specializes in backend development with a focus on algorithms and data structures."
+    },
+    {
+      "name": "Anushka",
+      "position": "Software Engineer",
+      "image": "",
+      "github": "https://github.com/Anushka",
+      "linkedin": "https://linkedin.com/in/Anushka",
+      "description": "Expert in cloud computing and machine learning for enterprise applications."
+    },
+    {
+      "name": "Amit Kumar",
+      "position": "Software Engineer",
+      "image": "/images/john_doe.jpg",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "description": "Focuses on system architecture and optimizing large-scale projects."
+    },
+    {
+      "name": "Ravi Patel",
+      "position": "Software Engineer",
+      "image": "/images/john_doe.jpg",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "description": "Experienced in full-stack development with a focus on user experience."
+    },
+    {
+      "name": "Priya Mehta",
+      "position": "Frontend Developer",
+      "image": "/images/jane_smith.jpg",
+      "github": "https://github.com/janesmith",
+      "linkedin": "https://linkedin.com/in/janesmith",
+      "description": "Builds intuitive, responsive UIs using modern frameworks."
+    }
+  ],
+  "graphics": [
+    {
+      "name": "Arjun Nair",
+      "position": "Software Engineer",
+      "image": "/images/john_doe.jpg",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "description": "Merges technical expertise with design for seamless, functional applications."
+    },
+    {
+      "name": "Suresh Rao",
+      "position": "Software Engineer",
+      "image": "/images/john_doe.jpg",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "description": "Creates user-friendly, visually appealing software solutions."
+    },
+    {
+      "name": "Vikram Singh",
+      "position": "Software Engineer",
+      "image": "/images/john_doe.jpg",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "description": "Contributes to both development and design, enhancing project outcomes."
+    },
+    {
+      "name": "Karan Joshi",
+      "position": "Software Engineer",
+      "image": "/images/john_doe.jpg",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "description": "Transforms complex requirements into intuitive designs."
+    },
+    {
+      "name": "Rajesh Yadav",
+      "position": "Graphic Designer",
+      "image": "/images/mark_lee.jpg",
+      "github": "https://github.com/marklee",
+      "linkedin": "https://linkedin.com/in/marklee",
+      "description": "Specializes in visual communication and branding with attention to detail."
+    }
+  ],
+  "event": [
+    {
+      "name": "Nikhil Sharma",
+      "position": "Software Engineer",
+      "image": "/images/john_doe.jpg",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "description": "Builds event management systems with strong problem-solving skills."
+    },
+    {
+      "name": "Anil Bhatia",
+      "position": "Software Engineer",
+      "image": "/images/john_doe.jpg",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "description": "Develops software solutions for large-scale events."
+    },
+    {
+      "name": "Rakesh Gupta",
+      "position": "Software Engineer",
+      "image": "/images/john_doe.jpg",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "description": "Manages technical projects for events, offering real-time solutions."
+    },
+    {
+      "name": "Prakash Desai",
+      "position": "Software Engineer",
+      "image": "/images/john_doe.jpg",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "description": "Focused on creating seamless event experiences using technology."
+    },
+    {
+      "name": "Pooja Patel",
+      "position": "Event Manager",
+      "image": "/images/sarah_connor.jpg",
+      "github": "https://github.com/sarahconnor",
+      "linkedin": "https://linkedin.com/in/sarahconnor",
+      "description": "Skilled in coordinating complex logistics for smooth event execution."
+    }
+  ],
+  "content": [
+    {
+      "name": "Manish Kapoor",
+      "position": "Software Engineer",
+      "image": "/images/john_doe.jpg",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "description": "Develops content management systems that support rich content creation."
+    },
+    {
+      "name": "Vijay Reddy",
+      "position": "Software Engineer",
+      "image": "/images/john_doe.jpg",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "description": "Builds scalable, content-driven applications."
+    },
+    {
+      "name": "Rohit Choudhary",
+      "position": "Software Engineer",
+      "image": "/images/john_doe.jpg",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "description": "Specializes in managing large volumes of content for optimal performance."
+    },
+    {
+      "name": "Sanjay Verma",
+      "position": "Software Engineer",
+      "image": "/images/john_doe.jpg",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "description": "Integrates content systems seamlessly with other platforms."
+    },
+    {
+      "name": "Rani Kumari",
+      "position": "Content Writer",
+      "image": "/images/emily_davis.jpg",
+      "github": "https://github.com/emilydavis",
+      "linkedin": "https://linkedin.com/in/emilydavis",
+      "description": "Creates engaging content that boosts SEO performance."
+    }
+  ],
+  "publicity": [
+    {
+      "name": "Amit Singh",
+      "position": "Software Engineer",
+      "image": "/images/john_doe.jpg",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "description": "Crafts compelling narratives and promotional content for tech products."
+    },
+    {
+      "name": "Ravi Deshmukh",
+      "position": "Software Engineer",
+      "image": "/images/john_doe.jpg",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "description": "Blends technical expertise with creative messaging for public relations."
+    },
+    {
+      "name": "Sandeep Arora",
+      "position": "Software Engineer",
+      "image": "/images/john_doe.jpg",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "description": "Helps brands communicate technical achievements through publicity."
+    },
+    {
+      "name": "Ashish Kaur",
+      "position": "Software Engineer",
+      "image": "/images/john_doe.jpg",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "description": "Manages publicity for tech events, ensuring the right message is delivered."
+    },
+    {
+      "name": "Rajiv Bansal",
+      "position": "Public Relations",
+      "image": "/images/tom_hanks.jpg",
+      "github": "https://github.com/tomhanks",
+      "linkedin": "https://linkedin.com/in/tomhanks",
+      "description": "Expert in tech PR, building media relationships and communication strategies."
+    }
+  ],
+  "digital": [
+    {
+      "name": "Deepak Kumar",
+      "position": "Software Engineer",
+      "image": "/images/john_doe.jpg",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "description": "Creates interactive digital content for online platforms."
+    },
+    {
+      "name": "Saurabh Bhatnagar",
+      "position": "Software Engineer",
+      "image": "/images/john_doe.jpg",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "description": "Delivers digital solutions to enhance brand presence and audience engagement."
+    },
+    {
+      "name": "Amit Yadav",
+      "position": "Software Engineer",
+      "image": "/images/john_doe.jpg",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "description": "Designs digital strategies to improve content accessibility and engagement."
+    },
+    {
+      "name": "Ajay Singh",
+      "position": "Software Engineer",
+      "image": "/images/john_doe.jpg",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "description": "Develops digital platforms that streamline online marketing efforts."
+    },
+    {
+      "name": "Rohit Bhardwaj",
+      "position": "Digital Media Specialist",
+      "image": "/images/robert_brown.jpg",
+      "github": "https://github.com/robertbrown",
+      "linkedin": "https://linkedin.com/in/robertbrown",
+      "description": "Delivers innovative digital campaigns with technical expertise."
+    }
+  ]
+}

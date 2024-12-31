@@ -1,0 +1,292 @@
+/* ----------------- Global Styles ----------------- */
+* {
+    background: linear-gradient(90deg, #0f0c11, #28013e);
+    color: #fff;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* ----------------- Card Container Styles ----------------- */
+  .cardContainer {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+    gap: 20px;
+    justify-content: flex-start;
+    scrollbar-width: thin;
+    scrollbar-color: #0066cc #333;
+    overflow: hidden;
+    background: none; 
+  }
+  
+  /* Custom styling for webkit browsers (Chrome, Safari) */
+  .cardContainer::-webkit-scrollbar {
+    height: 8px;
+    visibility: hidden;
+  }
+  
+  .cardContainer::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg, #00008B, #00ff00);
+    border-radius: 4px;
+  }
+  
+  .cardContainer::-webkit-scrollbar-track {
+    background: #333;
+    border-radius: 4px;
+  }
+  
+  .cardContainer:active,
+  .cardContainer:hover {
+    overflow-x: auto;
+  }
+  
+  .cardContainer:active::-webkit-scrollbar,
+  .cardContainer:hover::-webkit-scrollbar {
+    visibility: visible;
+  }
+  
+  .cardContainer::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(90deg, #00ff00, #00008B);
+  }
+  
+  /* ----------------- Team Card Styles ----------------- */
+  .teamCard {
+    background: #1f1f1f;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+    padding: 13px;
+    width: 250px;
+    height: 340px;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+    margin: 15px;
+    flex-shrink: 0;
+    position: relative;
+    perspective: 1000px;
+    animation: stackFromLeft 1s ease-out forwards;
+    background: linear-gradient(40deg, #003366, #0066cc, #f46ed9);
+    border: 1px solid #444;
+    transform-origin: center center;
+  }
+  
+  /* Hover effect on Team Card */
+  .teamCard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.6);
+  }
+  
+  /* Add the animation when the card is clicked */
+  .teamCard.clicked {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    z-index: 9999;
+    animation: zoomIn 2s ease-out forwards;
+  }
+  
+  /* ----------------- Card Inner Styles ----------------- */
+  .cardInner {
+    width: 100%;
+    height: 100%;
+    background-color: #2c2c2c;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Flip the whole card on hover */
+  .teamCard:hover .cardInner {
+    transform: rotateY(180deg);
+  }
+  
+  /* ----------------- Front of the Card Styles ----------------- */
+  .cardFront {
+    position: absolute;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(90deg, #0f0c11, #28013e);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Set circular image shape */
+  .cardImage {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%; 
+    margin: 5px;
+    transition: transform 0.3s ease-in-out;
+    backface-visibility: hidden;
+    box-shadow: 0 0 15px 5px #00ccff99;
+    border: 2px solid transparent;
+    background-image: linear-gradient(40deg, #0066cc, #eb6cf4);
+    background-clip: padding-box;
+  }
+  
+  .cardInfoFront {
+    text-align: center;
+    margin-top: 15px;
+    color: #fff;
+  }
+  
+  .name {
+    padding-top: 10px;
+    font-size: 1.4rem;
+    font-family: 'Algerian';
+    color: #fff;
+  }
+  
+  .description {
+    font-size: 1.1rem;
+    color: #ddd;
+    margin-top: 5px;
+    line-height: 1.4;
+    display: block;
+  }
+  
+  /* ----------------- Back of the Card Styles ----------------- */
+  .cardBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: #333;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    transform: rotateY(180deg);
+    background: linear-gradient(90deg, #0f0c11, #28013e);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .teamCard:hover .cardBack {
+    background: linear-gradient(90deg, #0f0c11, #28013e);
+  }
+  
+  .cardInfo {
+    text-align: center;
+    background-color: #333;
+  }
+  
+  .position {
+    font-size: 1.1rem;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  
+  /* Social Icons */
+  .socialIcons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icon {
+    font-size: 1.6rem;
+    color: #00ff00;
+    transition: color 0.3s ease;
+  }
+  
+  .icon:hover {
+    color: #00ccff; 
+  }
+  
+  /* ----------------- Team Section Styles ----------------- */
+  .teamSection {
+    margin-bottom: 50px;
+    background-color: #121212;
+    padding: 20px 0;
+    border-radius: 20px;
+  }
+  
+  /* ----------------- Subheading Styles ----------------- */
+  .subHeading {
+    border: 3px solid #00ff00;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    animation: borderAnimation 2s infinite, textAnimation 2s infinite;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  /* ----------------- Animations ----------------- */
+  @keyframes stackFromLeft {
+    0% {
+      transform: translateX(-200%);
+      opacity: 0;
+    }
+    30% {
+      transform: translateX(10%);
+      opacity: 0.5;
+    }
+    60% {
+      transform: translateX(-5%);
+      opacity: 0.8;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes zoomIn {
+    0% {
+      transform: scale(1) translate(0, 0);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.5) translate(-50%, -50%);
+      opacity: 0.8;
+    }
+    100% {
+      transform: scale(1.2) translate(-50%, -50%);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes borderAnimation {
+    0% {
+      border-color: var(--border-color1);
+    }
+    50% {
+      border-color: var(--border-color2);
+    }
+    100% {
+      border-color: var(--border-color1);
+    }
+  }
+  
+  @keyframes textAnimation {
+    0% {
+      color: var(--text-color1);
+    }
+    50% {
+      color: var(--text-color2);
+    }
+    100% {
+      color: var(--text-color1);
+    }
+  }
+  
